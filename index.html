@@ -3,62 +3,86 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portofolio Saya</title>
+    <title>Evander Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
-    <header>
-        <h1 id="nama">Name: Evander Juventino</h1>
-        <p>Im From Malang City</p>
+
+    <header class="navbar">
+        <div class="logo">Welcome to<span> My Portofolio</span></div>
+        <nav>
+            <ul>
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+  <div class="social-icons-nav">
+    <a href="https://www.instagram.com/evander789" target="_blank" class="social-link">
+        <i class="fab fa-instagram"></i>
+    </a>
+    <a href="https://wa.me/6281331489188" target="_blank" class="social-link">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+    <a href="https://www.facebook.com" target="_blank" class="social-link">
+        <i class="fab fa-facebook"></i>
+    </a>
+</div>
+
     </header>
 
-    <section class="info">
-        <h2>About me</h2>
-        <p><strong>Why i choose Software engineering:</strong> Because I want to learn programming and technological developments</p>
-        <p><strong>Hobby:</strong> Playing Basketball</p>
-        <p><strong>Favorite Figure:</strong> Timothy Ronald</p>
-        <p><strong>Favorite Song Genre:</strong> Pop, Rock</p>
-        <p><strong>Thing That I dont like:</strong> Cockroach</p>
-        <p><strong>Favorite Colors:</strong> Blue, Red, Black</p>
+
+    <section class="hero" id="home">
+        <div class="hero-text">
+            <p class="intro">Hello, My Name Is</p>
+            <h1>Evander <span>Juventino</span></h1>
+            <h2>I am a <span class="highlight">Software Engineer</span></h2>
+            <a href="#about" class="btn-main"><i class="fas fa-user"></i> More About Me</a>
+        </div>
+        
     </section>
 
-    <section class="skills">
-        <h2>Skill</h2>
-        <ul id="skill">
-            <li>Like to learn new things</li>
-            <li>can adapt to new situations</li>
-            <li>Problem Solving</li>
-        </ul>
+    <section class="about" id="about">
+    <div class="about-content">
+        <h2>About <span>Me</span></h2>
+        <h3>Web Programmer <span>& Software Engineer</span></h3>
+        <p>Why i choose Software engineering: Because I want to learn programming and technological developments</p>
+        <p>i have a strong interest in technology and innovation.</p>
+          <p>I love solving problems and improving my skills in web and app development.</p>
 
-        <h2>Language I Speak</h2>
-        <ul id="bahasa">
-            <li>Indonesia</li>
-            <li>English</li>
-        </ul>
+ <a href="#more-about" class="btn-main">Scroll Down</a>
 
-        <h2>Skills i want to learn</h2>
-        <ul id="next-skill">
-            <li>Editing</li>
-            <li>StoryTelling</li>
-            <li>Design</li>
-            <li>Photography</li>
-            <li>Investment</li>
-            <li>Communicate</li>
-        </ul>
-    </section>
+    </div>
+</section>
 
-    <section class="project">
-        <h2>Project i like</h2>
-        <ul>
-            <li>working out</li>
-        </ul>
-    </section>
-
-    <footer>
-        <button id="toggleMode">🌙 Dark Mode</button>
-    </footer>
+<section class="services" id="more-about">
+    <h2>More <span>About Me</span></h2>
+    <div class="service-container">
+        <div class="service-box">
+            <i class="fas fa-code"></i>
+            <h3>Skills</h3>
+            <p>- Problem Solving<br>- Adaptability<br>- Fast Learner</p>
+            <a href="#" class="btn-read">Read More</a>
+        </div>
+        <div class="service-box">
+            <i class="fas fa-basketball-ball"></i>
+            <h3>Hobby</h3>
+            <p>- Playing Basketball<br>- Gaming<br>- Workout</p>
+            <a href="#" class="btn-read">Read More</a>
+        </div>
+        <div class="service-box">
+            <i class="fas fa-music"></i>
+            <h3>Favorite Song</h3>
+            <p>- Pop<br>- Rock<br></p>
+            <a href="#" class="btn-read">Read More</a>
+        </div>
+    </div>
+</section>
+<button id="scrollTopBtn" style="display:none;">⬆</button>
 
     <script src="script.js"></script>
 </body>
 </html>
-
